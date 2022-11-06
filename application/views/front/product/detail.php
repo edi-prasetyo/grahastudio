@@ -159,7 +159,7 @@ $page           = $this->page_model->get_page();
                             <img class="img-fluid rounded" src="<?php echo base_url('assets/img/product/' . $product->product_image); ?>">
                             <div class="col-md-5 mx-auto mt-5">
                                 <div class="d-grid gap-2">
-                                    <a href="" class="btn btn-success" type="button">Live Preview</a>
+                                    <a href="<?php echo $product->product_link; ?>" class="btn btn-success" type="button">Live Preview</a>
                                 </div>
                             </div>
                             <div class="card-body mt-3">

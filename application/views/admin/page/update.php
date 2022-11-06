@@ -29,7 +29,7 @@
             <label class="col-lg-3 col-form-label">Deskripsi Halaman (ID)<span class="text-danger">*</span>
             </label>
             <div class="col-lg-9">
-                <textarea class="form-control" id="summernote" name="page_desc" required><?php echo $page->page_desc; ?></textarea>
+                <textarea class="form-control" id="summernote" name="page_desc" required><?php echo $page->page_description; ?></textarea>
                 <div class="invalid-feedback">Deskripsi halaman harus di isi</div>
             </div>
         </div>
@@ -37,7 +37,7 @@
             <label class="col-lg-3 col-form-label">Page Description (EN) <span class="text-danger">*</span>
             </label>
             <div class="col-lg-9">
-                <textarea class="form-control" id="summernote2" name="page_desc_en" required><?php echo $page->page_desc_en; ?></textarea>
+                <textarea class="form-control" id="summernote2" name="page_desc_en" required><?php echo $page->page_description_en; ?></textarea>
                 <div class="invalid-feedback">Page Description must be fill</div>
             </div>
         </div>

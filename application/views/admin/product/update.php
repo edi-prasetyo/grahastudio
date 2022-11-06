@@ -60,7 +60,7 @@
             <div class="col-md-6">
                 <label class="col-form-label">Url Demo <span class="text-danger">*</span>
                 </label>
-                <input type="text" class="form-control" name="product_url" placeholder="Url Demo" value="<?php echo $product->product_link; ?>">
+                <input type="text" class="form-control" name="product_link" placeholder="Url Demo" value="<?php echo $product->product_link; ?>">
             </div>
 
             <div class="col-md-6">
